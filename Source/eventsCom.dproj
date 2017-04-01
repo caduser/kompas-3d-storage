@@ -92,8 +92,8 @@
 			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
-			<Debugger_CWD>C:\Users\poskrebyshev\Desktop\Step4_API7_3D - копия\EventsCom</Debugger_CWD>
-			<Debugger_HostApplication>C:\Program Files\ASCON\KOMPAS-3D V16\Bin\KOMPAS.Exe</Debugger_HostApplication>
+			<Debugger_CWD>$(BDSUSERDIR)\kompas-3d-storage\x64\</Debugger_CWD>
+			<Debugger_HostApplication>C:\Program Files\ASCON\KOMPAS-3D v17\Bin\KOMPAS.Exe</Debugger_HostApplication>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
 			<VerInfo_Locale>1033</VerInfo_Locale>
 		</PropertyGroup>
