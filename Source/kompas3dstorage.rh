@@ -1,0 +1,9 @@
+#ifndef __KOMPAS3DSTORAGE_RH
+#define __KOMPAS3DSTORAGE_RH
+
+#define IDR_LIBID                 2000
+
+#define END_OF_RESOURCE_TABLE     0xffff
+#define BAR_1                     3001
+
+#endif
